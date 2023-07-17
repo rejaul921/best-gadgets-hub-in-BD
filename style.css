@@ -1,21 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.navbar{
+
+.navbar {
     display: flex;
     padding: 10px 80px;
     justify-content: space-between;
     align-items: center;
 }
-.manus ul{
+
+.manus ul {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 20px;
 }
+
 /* banner */
-.banner{
+.banner {
     width: 100v;
     padding: 0px 80px;
     display: flex;
@@ -23,11 +26,13 @@
     align-items: center;
     gap: 20px;
 }
-.banner-description{
+
+.banner-description {
     width: 50%;
     text-align: left;
 }
-.btn{
+
+.btn {
     color: white;
     background-color: #E02C6D;
     padding: 10px 20px;
@@ -35,7 +40,8 @@
     border: none;
     margin-top: 10px;
 }
-.banner-img{
+
+.banner-img {
     width: 50%;
     text-align: center;
     background-image: url(./images/Circle\ design.svg);
@@ -43,7 +49,51 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.banner-img img{
+
+.banner-img img {
     width: 70%;
     padding: 15px;
 }
+
+/* companies */
+.partnerd-companies {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    padding: 10px;
+    background-color: #F1E4FF;
+    border: 1px solid #787885;
+}
+
+.main {
+    padding: 50px 120px;
+}
+
+.main-title {
+    text-align: center;
+    margin: auto;
+}
+
+.cards {
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.card img{
+    width: auto;
+    margin: auto;
+}
+/* featured */
