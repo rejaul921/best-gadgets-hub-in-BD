@@ -97,3 +97,32 @@
     margin: auto;
 }
 /* featured */
+.feature{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.feature-img{
+    width: 40%;
+}
+.feature-img img{
+    padding: 5px;
+}
+.feature-description{
+    padding: 10px 20px;
+    text-align: left;
+}
+.feature-description p{
+    padding: 0px 10px;
+}
+/* footer */
+.footer{
+    background-color: #0A0826;
+    text-align: center;
+    color: #FFF;
+    margin: auto;
+    padding: 50px 0px;
+}
