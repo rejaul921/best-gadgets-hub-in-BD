@@ -126,3 +126,56 @@
     margin: auto;
     padding: 50px 0px;
 }
+.hide{
+    display: none;
+}
+/* mobile responsive */
+
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .manus ul{
+        gap: 5px;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .banner{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .banner-description{
+        width: 80%;
+        text-align: center;
+    }
+    .banner-img{
+        width: 80%;
+    }
+    .partnerd-companies{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .main{
+        padding: 5px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .feature{
+        flex-direction: column-reverse;
+    }
+    .feature-description{
+        padding: 5px;
+    }
+    .feature-img{
+        width: 80%;
+    }
+    .feature-img img{
+        padding: 0px;
+        width: 100%;
+    }
+
+}
